@@ -7,6 +7,13 @@
   - https://getpino.io/#/docs/transports
     - https://github.com/pinojs/pino-opentelemetry-transport
 
+## Setup
+
+1. `git clone $REPO`
+2. `npm i`
+3. `source setup-env-vars.sh`
+4. run the test logger: `npm start`
+
 ## Tutorials
 
 - [A Complete Guide to Pino Logging in Node.js | Better Stack Community](https://betterstack.com/community/guides/logging/how-to-install-setup-and-use-pino-to-log-node-js-applications/) ( 2626/01/17 )
@@ -28,9 +35,11 @@
 
 - [https://dev.to/vbarzana/enhancing-pino-to-support-message-payload-logging-without-breaking-pretty-logs-2hjb | Dev.to](https://dev.to/vbarzana/enhancing-pino-to-support-message-payload-logging-without-breaking-pretty-logs-2hjb)
 
-- [send pino logger logs to oneuptime using the pino-opentelemetry-transport | Perplexity.ai](https://www.perplexity.ai/search/bb3d22a5-a88a-4c6d-9800-c06019c75d63)
-  - [OpenTelemetry | OneUptime Docs](https://oneuptime.com/docs/en/telemetry/open-telemetry)
-
 - [how to setup a typescript vitejs project to test the pino logger | Perplexity.ai](https://www.perplexity.ai/search/b97e0ff4-50d3-4a85-8986-04e587e74558)
 
 - [Isomorphic Next.js Logger with Pino | Luzefiru](https://luzefiru.com/blog/isomorphic-nextjs-logger-with-pino)
+
+### Sending the logs to OneUptime
+
+- [send pino logger logs to oneuptime using the pino-opentelemetry-transport | Perplexity.ai](https://www.perplexity.ai/search/bb3d22a5-a88a-4c6d-9800-c06019c75d63)
+  - [OpenTelemetry | OneUptime Docs](https://oneuptime.com/docs/en/telemetry/open-telemetry)
