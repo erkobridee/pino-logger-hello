@@ -32,3 +32,5 @@
   - [OpenTelemetry | OneUptime Docs](https://oneuptime.com/docs/en/telemetry/open-telemetry)
 
 - [how to setup a typescript vitejs project to test the pino logger | Perplexity.ai](https://www.perplexity.ai/search/b97e0ff4-50d3-4a85-8986-04e587e74558)
+
+- [Isomorphic Next.js Logger with Pino | Luzefiru](https://luzefiru.com/blog/isomorphic-nextjs-logger-with-pino)
