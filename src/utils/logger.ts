@@ -59,6 +59,7 @@ const logger: Logger = pino({
 export default logger;
 
 // Child loggers per module
+// https://getpino.io/#/docs/child-loggers
 export function getLogger(module: string) {
   return logger.child({ module });
 }
